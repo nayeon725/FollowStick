@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settingFPage">
+
+    //이전 페이지 버튼
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+
+        android:text="이전 페이지"
+        android:textSize="60dp"
+
+        android:background="@drawable/settingpage_homebtncss"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+
+    //스크린 리더 ON(현재 스크린 리더 OFF일 경우 사용)
+    <Button
+        android:id="@+id/srOnbtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:text="스크린\n리더\nON"
+        android:textSize="60dp"
+
+        android:background="@drawable/settingpage_sronbtncss"
+        android:textColor="@color/white"
+
+        app:layout_constraintTop_toBottomOf="@+id/backbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/srOffbtn" />
+
+    //스크린 리더 OFF(현재 스크린 리더 ON일 경우 사용)
+    <Button
+        android:id="@+id/srOffbtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:text="스크린\n리더\nOFF"
+        android:textSize="60dp"
+
+        android:background="@drawable/settingpage_sroffbtncss"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backbtn"
+
+        app:layout_constraintLeft_toRightOf="@id/srOnbtn"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

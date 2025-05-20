@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5A5A5A"
+    tools:context=".secondFPage">
+
+    //follow Stick 로고
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Follow Stick"
+        android:textSize="60dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0"
+        tools:ignore="MissingConstraints" />
+
+    // 설명서 버튼
+    <Button
+        android:id="@+id/manualbtn"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+
+        android:textSize="47dp"
+        android:text="설명서"
+
+        android:textColor="@color/white"
+        android:background="@drawable/btncss"
+        android:layout_margin="10dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/shortcutbtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingClass" />
+
+    // 앱사용 바로가기 버튼
+    <Button
+        android:id="@+id/shortcutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+
+        android:textSize="47dp"
+        android:text="앱사용 바로가기"
+
+        android:textColor="@color/white"
+        android:background="@drawable/btncss"
+        android:layout_margin="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/manualbtn"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="MissingClass" />
+
+</android.support.constraint.ConstraintLayout>

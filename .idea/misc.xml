@@ -1,0 +1,29 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/drawable/backbtncss.xml" value="0.1" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/drawable/btncss.xml" value="0.1" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/drawable/functioncss.xml" value="0.1" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/drawable/settingpage_homebtn.xml" value="0.1" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/drawable/settingpage_sroffbtncss.xml" value="0.1" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/drawable/settingpage_sronbtncss.xml" value="0.1" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/layout/activity_function_fpage.xml" value="0.1" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/layout/activity_guide_fpage.xml" value="0.1757852077001013" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/layout/activity_led_fpage.xml" value="0.1757852077001013" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/layout/activity_second_fpage.xml" value="0.1757852077001013" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/layout/activity_setting_fpage.xml" value="0.1757852077001013" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/layout/activity_setting_guide_fpage.xml" value="0.1757852077001013" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/layout/activity_sub_fpage.xml" value="0.1757852077001013" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/layout/activity_toilet_fpage.xml" value="0.1757852077001013" />
+        <entry key="..\:/_1_mobileworkspace/Follow_Stick_52/app/src/main/res/layout/activity_ui_fpage.xml" value="0.1757852077001013" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

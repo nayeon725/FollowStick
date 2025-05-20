@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ledFPage">
+
+    //Home button
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="홈 버튼"
+        android:textSize="60dp"
+
+        android:textColor="@color/white"
+        android:background="@drawable/settingpage_homebtncss"
+
+        android:padding="30dp"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    //led on/off 제어 btn
+    <Button
+        android:id="@+id/ledbtn"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:text="LED\n제어 하기"
+        android:textSize="60dp"
+
+        android:textColor="@color/white"
+        android:background="@drawable/functioncss"
+        app:layout_constraintTop_toBottomOf="@id/homebtn"/>
+
+
+    //이전 페이지 btn
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:text="이전"
+        android:textSize="60dp"
+
+        android:textColor="@color/white"
+        android:background="@drawable/backbtncss"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ledbtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/nextbtn" />
+
+
+    //다음 페이지 btn
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:text="다음"
+        android:textSize="60dp"
+
+        android:textColor="@color/white"
+        android:background="@drawable/settingpage_homebtncss"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ledbtn"
+        app:layout_constraintLeft_toRightOf="@id/backbtn"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
